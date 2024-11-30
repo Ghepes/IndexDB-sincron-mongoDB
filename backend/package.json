@@ -1,0 +1,24 @@
+{
+  "name": "backend-indexdb-mongodb",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Ghepes",
+  "license": "MIT",
+  "description": "Backend for Frontend Electron app with IndexedDB integration to synic on Mongodb",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghepes/IndexDB-sincron-mongoDB/backend"
+  }
+}
