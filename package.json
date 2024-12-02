@@ -1,0 +1,27 @@
+{
+  "name": "indexdb-sincron-mongodb",
+  "version": "1.0.0",
+  "private": true,
+  "description": "App with IndexedDB integration to synic on Mongodb",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Ghepes",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.13.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghepes/IndexDB-sincron-mongoDB.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ghepes/IndexDB-sincron-mongoDB/issues"
+  },
+  "homepage": "https://github.com/ghepes/IndexDB-sincron-mongoDB#readme",
+  "devDependencies": {}
+}

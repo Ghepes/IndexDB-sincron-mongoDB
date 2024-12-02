@@ -1,17 +1,41 @@
-project/
-├── backend/               # Backend Node.js
-│   ├── server.js          # Serverul Express
-│   ├── routes/            # Rutele API
-│   │   └── sync.js        # Rute pentru sincronizare
-│   ├── models/            # Modele de baze de date (MongoDB)
-│   │   └── user.js        # Model pentru utilizatori
-│   └── db/                # Configurare conexiune DB
-│       └── mongo.js       # Conexiunea la MongoDB
-├── frontend/              # Aplicația Electron.js
-│   ├── main.js            # Procesul principal al Electron.js
-│   ├── index.html         # Interfața UI
-│   ├── renderer.js        # Logica pentru interfață (IndexedDB)
-│   └── styles.css         # Stilizare UI
-└── package.json           # Fișierul principal al proiectului
-
-
+📦IndexDB-sincron-mongoDB
+ ┣ 📂.git
+ ┣ 📂controllers
+ ┃ ┣ 📜comment-controller.js
+ ┃ ┗ 📜trace-controller.js
+ ┣ 📂models
+ ┃ ┣ 📜Comment.js
+ ┃ ┣ 📜index.js
+ ┃ ┗ 📜Trace.js
+ ┣ 📂public
+ ┃ ┣ 📂assets
+ ┃ ┃ ┣ 📂css
+ ┃ ┃ ┃ ┗ 📜style.css
+ ┃ ┃ ┣ 📂images
+ ┃ ┃ ┃ ┗ 📜header-bg.jpg
+ ┃ ┃ ┣ 📂js
+ ┃ ┃ ┃ ┣ 📜add-trace.js
+ ┃ ┃ ┃ ┣ 📜idb.js
+ ┃ ┃ ┃ ┣ 📜trace-list.js
+ ┃ ┃ ┃ ┗ 📜single-trace.js
+ ┃ ┃ ┣ 📜alltraces.png
+ ┃ ┃ ┗ 📜createtrace.png
+ ┃ ┣ 📜add-trace.html
+ ┃ ┣ 📜trace-list.html
+ ┃ ┗ 📜trace.html
+ ┣ 📂routes
+ ┃ ┣ 📂api
+ ┃ ┃ ┣ 📜comment-routes.js
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┗ 📜trace-routes.js
+ ┃ ┣ 📂html
+ ┃ ┃ ┗ 📜html-routes.js
+ ┃ ┗ 📜index.js
+ ┣ 📜.gitattributes
+ ┣ 📜.gitignore
+ ┣ 📜image.png
+ ┣ 📜LICENSE
+ ┣ 📜package.json
+ ┣ 📜README.md
+ ┣ 📜server.js
+ ┗ 📜tree
