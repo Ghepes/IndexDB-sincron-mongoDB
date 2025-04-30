@@ -1,5 +1,7 @@
 # IndexDB-sincron-mongoDB
+PIZZ messege Now
  Sincron data from local with IndexDB on MongoDB
+ ![alt text](public/assets/alltrace.png)
 ![alt text](image.png)
 
 ## A. Inplement frontend
@@ -26,3 +28,4 @@ npm install express mongoose body-parser cors
 
 cd backend
 node server.js
+
